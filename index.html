@@ -10,7 +10,7 @@
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 Georgia, "Times New Roman", serif; }
   main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
-  nav { display: flex; gap: 12px; margin-bottom: 24px; font-family: system-ui, sans-serif; font-size: 14px; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 24px; font-family: system-ui, sans-serif; font-size: 14px; }
   nav a { color: var(--accent); }
   h1 { font-size: 30px; margin: 0 0 4px; }
   h2 { font-size: 20px; margin: 28px 0 8px; }
@@ -23,11 +23,11 @@
 </head>
 <body>
 <main>
-<nav><a href="#es">Español</a><a href="#en">English</a></nav>
+<nav><a href="#es">Español</a><a href="#en">English</a><a href="#eliminar-cuenta">Eliminar tu cuenta</a><a href="#delete-account">Delete your account</a></nav>
 
 <section class="lang" id="es" lang="es">
 <h1>Política de privacidad de eBe</h1>
-<p class="meta">Vigente desde el 24 de noviembre de 2026</p>
+<p class="meta">Vigente desde el 24 de noviembre de 2026 · Actualizada el 25 de noviembre de 2026</p>
 
 <p>eBe es una app para lectores curiosos: lees tus propios EPUB o libros de dominio público, y eBe dibuja tu camino de lectura. Esta política explica qué datos usa la app, dónde se guardan y con quién se comparten.</p>
 
@@ -67,13 +67,21 @@
 <h2>Tus opciones</h2>
 <p>Puedes borrar tus datos en cualquier momento con «Eliminar cuenta» en tu perfil o desinstalando la app. Para preguntas o para pedir que se borren informes de fallos asociados a tu instalación, escríbenos a <a href="mailto:ebe.ebook@gmail.com">ebe.ebook@gmail.com</a>.</p>
 
+<h2 id="eliminar-cuenta">Eliminar tu cuenta</h2>
+<p>Tu cuenta de eBe y todos sus datos existen solo en tu teléfono: eBe no tiene servidores ni copias en la nube, así que no hay nada que borrar en otro lugar. Puedes eliminarla de dos formas:</p>
+<ul>
+  <li><strong>Desde la app:</strong> abre <strong>Perfil → Ajustes → Eliminar cuenta</strong> y confirma. Se borran de inmediato tu correo y nombre, tu biblioteca y los EPUB que subiste, tu progreso, tus citas y palabras guardadas, y tu mapa de lectura.</li>
+  <li><strong>Desinstalando eBe:</strong> al borrar la app, el teléfono elimina también todos sus datos.</li>
+</ul>
+<p>Ninguna de las dos opciones se puede deshacer. Los informes de fallos que Sentry haya recibido (sin tu correo, tu nombre ni tus libros) no se borran solos desde la app: si quieres que se eliminen, o necesitas ayuda para borrar tu cuenta, escríbenos a <a href="mailto:ebe.ebook@gmail.com">ebe.ebook@gmail.com</a>.</p>
+
 <h2>Cambios</h2>
 <p>Si esta política cambia, actualizaremos esta página y su fecha.</p>
 </section>
 
 <section class="lang" id="en" lang="en">
 <h1>eBe Privacy Policy</h1>
-<p class="meta">Effective November 24, 2026</p>
+<p class="meta">Effective November 24, 2026 · Updated November 25, 2026</p>
 
 <p>eBe is an app for curious readers: you read your own EPUBs or public-domain books, and eBe draws your reading path. This policy explains what data the app uses, where it is kept and who it is shared with.</p>
 
@@ -112,6 +120,14 @@
 
 <h2>Your choices</h2>
 <p>You can delete your data at any time with "Delete account" in your profile or by uninstalling the app. For questions, or to ask for crash reports tied to your installation to be deleted, write to <a href="mailto:ebe.ebook@gmail.com">ebe.ebook@gmail.com</a>.</p>
+
+<h2 id="delete-account">Delete your account</h2>
+<p>Your eBe account and all of its data exist only on your phone: eBe has no servers or cloud copies, so there is nothing to delete anywhere else. You can delete it in two ways:</p>
+<ul>
+  <li><strong>In the app:</strong> open <strong>Profile → Settings → Delete account</strong> and confirm. This immediately deletes your email and name, your library and the EPUBs you added, your progress, your saved quotes and words, and your reading map.</li>
+  <li><strong>By uninstalling eBe:</strong> removing the app also removes all of its data from your phone.</li>
+</ul>
+<p>Neither option can be undone. Crash reports already received by Sentry (which contain no email, name or books) are not deleted from the app: to have them deleted, or if you need help deleting your account, write to <a href="mailto:ebe.ebook@gmail.com">ebe.ebook@gmail.com</a>.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, we will update this page and its date.</p>
